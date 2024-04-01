@@ -1,0 +1,69 @@
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\warrior Gym.exe.config
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\warrior Gym.exe
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\warrior Gym.pdb
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.csproj.AssemblyReference.cache
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.csproj.SuggestedBindingRedirects.cache
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Properties.Resources.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.csproj.GenerateResource.cache
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.csproj.CoreCompileInputs.cache
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.exe
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.pdb
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Agregar_Cliente.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.EditarCliente.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Main.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.AgregarPago.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Buffers.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Linq.Async.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Memory.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Numerics.Vectors.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Buffers.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Linq.Async.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Memory.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Numerics.Vectors.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior Gym.csproj.CopyComplete
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Editar_dato_cliente.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Data.SQLite.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Data.SQLite.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Pago.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Mostrar_pagos.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Options.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Newtonsoft.Json.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.ValueTuple.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Options.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Newtonsoft.Json.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.ValueTuple.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.ComponentModel.Annotations.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\ClosedXML.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\DocumentFormat.OpenXml.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\ExcelNumberFormat.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\Irony.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\SixLabors.Fonts.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.IO.Packaging.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\XLParser.dll
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\ClosedXML.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\DocumentFormat.OpenXml.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\ExcelNumberFormat.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\SixLabors.Fonts.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.IO.Packaging.xml
