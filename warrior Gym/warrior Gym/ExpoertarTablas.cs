@@ -42,8 +42,9 @@ namespace warrior_Gym
                     // Guarda el archivo de Excel en la ubicación seleccionada por el usuario
                     workbook.SaveAs(rutaArchivo);
                 }
+                MessageBox.Show("Tablas Exportadas");
             }
-            MessageBox.Show("Tablas Exportadas");
+            
         }
 
         private void ExportarTablaACsv(string query, IXLWorksheet worksheet, string connectionString)

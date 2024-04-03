@@ -29,9 +29,11 @@ namespace warrior_Gym
         {
             int idCliente, monto,id_pago;
             string cliente, fecha, mes;
-            DataGridViewRow filaSeleccionada = dataGridView_mostrar_pagos.SelectedRows[0];
+            
             try
             {
+                DataGridViewRow filaSeleccionada = dataGridView_mostrar_pagos.SelectedRows[0];
+
                 idCliente = Convert.ToInt32(filaSeleccionada.Cells["id_cliente"].Value);
                 id_pago = Convert.ToInt32(filaSeleccionada.Cells["id_cliente"].Value);
                 cliente = Convert.ToString(filaSeleccionada.Cells["cliente"].Value);
@@ -43,9 +45,13 @@ namespace warrior_Gym
                 Imprimir impresion = new Imprimir(idCliente,id_pago,cliente,fecha,monto,mes);
                 impresion.ImprimirTicket();
             }
+            catch(ArgumentOutOfRangeException)
+            {
+                MessageBox.Show("Debe seleccionar una fila para imprimir", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             catch (Exception ex)
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("Error"+ex);
             }
 
         }

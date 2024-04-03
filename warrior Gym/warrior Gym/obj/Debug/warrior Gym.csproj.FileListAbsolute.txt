@@ -67,3 +67,5 @@ C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\DocumentF
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\ExcelNumberFormat.xml
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\SixLabors.Fonts.xml
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Debug\System.IO.Packaging.xml
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.mail.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Debug\warrior_Gym.Estadisticas.resources

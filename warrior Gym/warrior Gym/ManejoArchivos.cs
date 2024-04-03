@@ -154,9 +154,77 @@ namespace warrior_Gym
             }
         }
 
+        public List<Cliente> ObtenerClientesPorEstado(string estado)
+        {
+            List<Cliente> clientes = new List<Cliente>();
+
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+
+                string query = "SELECT * FROM Cliente WHERE Estado = @Estado";
+
+                using (SQLiteCommand selectCommand = new SQLiteCommand(query, connection))
+                {
+                    selectCommand.Parameters.AddWithValue("@Estado", estado);
+
+                    using (SQLiteDataReader reader = selectCommand.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Cliente cliente = new Cliente(
+                                Convert.ToInt32(reader["ID"]),
+                                Convert.ToString(reader["Nombre"]),
+                                Convert.ToString(reader["Apellido"]),
+                                Convert.ToInt64(reader["Celular"]),
+                                Convert.ToString(reader["Mail"]),
+                                Convert.ToString(reader["Rutina"]),
+                                Convert.ToInt32(reader["Dias"]),
+                                Convert.ToString(reader["Notas"]),
+                                Convert.ToString(reader["Estado"])
+                            );
+
+                            clientes.Add(cliente);
+                        }
+                    }
+                }
+
+                connection.Close();
+            }
+
+            return clientes;
+        }
+        public bool ClienteYaEstaCargado(string nombre,string apellido,string mail,long celular)
+        {
+            bool estaCargado = false;//true -> ya esta cargado, false -> no esta en la base de datos
+
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                using (SQLiteCommand command = new SQLiteCommand("SELECT COUNT(*) FROM Cliente WHERE nombre=@Nombre AND apellido=@Apellido AND mail=@Mail AND celular =@Celular", connection))
+                {
+                    //command.Parameters.AddWithValue("@ID", idCliente);
+                    command.Parameters.AddWithValue("@Nombre", nombre);
+                    command.Parameters.AddWithValue("@Apellido", apellido);
+                    command.Parameters.AddWithValue("@Mail", mail);
+                    command.Parameters.AddWithValue("@Apellido", apellido);
+                    command.Parameters.AddWithValue("@Celular", celular);
+
+                    int count = Convert.ToInt32(command.ExecuteScalar());
+
+                    // Si count es igual a 1, significa que el cliente está cargado en la base de datos
+                    estaCargado = count == 1;
+                }
+
+                connection.Close();
+            }
+
+            return estaCargado;
+        }
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///PAGOS///
-        
+
         public void CrearTabla_Pagos()
         {
             using (SQLiteConnection connection = new SQLiteConnection(connectionString_pagos))
@@ -261,6 +329,46 @@ namespace warrior_Gym
 
             return yaPago;
         }
+        public List<Pagos> ObtenerPagosPorMes(string mes)
+        {
+            List<Pagos> list_pago = new List<Pagos>();
 
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString_pagos))
+            {
+                connection.Open();
+
+                // Consulta SQL con filtro por mes
+                string query = "SELECT * FROM Pagos WHERE MesPagado = @Mes";
+
+                using (SQLiteCommand selectCommand = new SQLiteCommand(query, connection))
+                {
+                    // Agregar el parámetro para el mes
+                    selectCommand.Parameters.AddWithValue("@Mes", mes);
+
+                    using (SQLiteDataReader reader = selectCommand.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int clienteId = Convert.ToInt32(reader["IDCliente"]);
+
+                            // Crear un objeto Pagos con el nombre del cliente
+                            Pagos estePago = new Pagos(
+                                Convert.ToInt32(reader["idPago"]),
+                                clienteId,
+                                Convert.ToString(reader["Nombre"]),
+                                Convert.ToString(reader["FechaPago"]),
+                                Convert.ToString(reader["MesPagado"]),
+                                Convert.ToInt32(reader["MontoPagado"])
+                            );
+                            list_pago.Add(estePago);
+                        }
+                    }
+                }
+
+                connection.Close();
+            }
+
+            return list_pago;
+        }
     }
 }

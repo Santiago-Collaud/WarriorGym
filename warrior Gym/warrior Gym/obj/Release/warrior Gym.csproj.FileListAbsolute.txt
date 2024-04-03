@@ -1,6 +1,4 @@
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.exe.config
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.exe.manifest
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.application
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.exe
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.pdb
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\ClosedXML.dll
@@ -60,9 +58,7 @@ C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.EditarCliente.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Editar_dato_cliente.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Estadisticas.resources
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Form1.resources
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Mails.resources
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Ver_pagos.resources
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.mail.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Mostrar_pagos.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Pago.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Main.resources
@@ -70,8 +66,10 @@ C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior_Gym.Properties.Resources.resources
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.csproj.GenerateResource.cache
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.csproj.CoreCompileInputs.cache
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.exe.manifest
-C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.application
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.csproj.CopyComplete
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.exe
 C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.pdb
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.exe.manifest
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\bin\Release\warrior Gym.application
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.exe.manifest
+C:\PROGRAMACION\Trabajos\Warrior_Gym\warrior Gym\warrior Gym\obj\Release\warrior Gym.application

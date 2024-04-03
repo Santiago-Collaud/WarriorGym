@@ -22,12 +22,11 @@ namespace warrior_Gym
 
         private void button1_Click(object sender, EventArgs e)//Boton Guardar
         {
+            String nombre, apellido, mail, rutina, notas, estado;
+            int dias, id;
+            long celular = 1;
             try
             {
-                String nombre, apellido, mail, rutina, notas, estado;
-                int dias, id;
-                long celular = 1;
-
                 nombre = text_Nombre.Text;
                 apellido = text_apellido.Text;
 
@@ -56,13 +55,27 @@ namespace warrior_Gym
 
                 estado = "ACTIVO";
 
-                Cliente nuevo_cliente = new Cliente(id, nombre, apellido, celular, mail, rutina, dias, notas,estado);
+                string NOMBRE = nombre.ToUpper();
+                string APELLIDO = apellido.ToUpper();
+                string mail_lower = mail.ToLower();
 
-                archivo.AgregarCliente(nuevo_cliente);
+                if (archivo.ClienteYaEstaCargado(NOMBRE, APELLIDO,mail_lower,celular) == true)
+                {
+                    MessageBox.Show("El cliente: " + nombre + " " + apellido + " ya esta cargado");
+                }
+                else
+                {
+                    
+                    Cliente nuevo_cliente = new Cliente(id, NOMBRE, APELLIDO, celular, mail_lower, rutina, dias, notas, estado);
 
-                this.Close();
+                    archivo.AgregarCliente(nuevo_cliente);
+
+                    this.Close();
+
+                    MessageBox.Show("Cliente agregado");
+                }//cierra else
             }
-            catch (Exception ex) { MessageBox.Show("Error al ingresar Datos"); }
+            catch (Exception ex) { MessageBox.Show("Error al ingresar Datos"+ex); }
         }
         public int generar_ID()
         {
