@@ -101,5 +101,12 @@ namespace warrior_Gym
         {
 
         }
+
+        private void configuracionToolStripMenuItem_Click(object sender, EventArgs e)//CONFIGURACION
+        {
+            Configuracion configuracion = new Configuracion();
+            configuracion.Owner = this;
+            configuracion.Show();
+        }
     }
 }

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="warrior Gym.exe" version="1.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="warrior Gym.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="warrior Gym" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="warrior Gym" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="warrior Gym.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -354,14 +354,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="warrior Gym.exe" size="63456">
-      <assemblyIdentity name="warrior Gym" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="warrior Gym.exe" size="185312">
+      <assemblyIdentity name="warrior Gym" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g1ShGjd/Upnc5/l6FtQ9ofbUYMSx1CagS0cp28DRR1o=</dsig:DigestValue>
+        <dsig:DigestValue>dZWgLS+zgFF4k25J/Fz37oshdnvkBvTz6lDdr86uxBY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -377,15 +377,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="iconos\Warrior_GYM_1.jpg" size="123536">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mvWIQjQggpFo6D7xNCyjjspXxnXJW8pA0Om88LcGi1g=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="warrior Gym.exe.config" size="1795">
     <hash>
       <dsig:Transforms>

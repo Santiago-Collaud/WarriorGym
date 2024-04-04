@@ -60,12 +60,6 @@ namespace warrior_Gym
                 MessageBox.Show("Error al leer el archivo: " + ex.Message);
             }
         }
-
-        public void abrirTXT()
-        {
-            Process.Start(rutaArchivo);
-        }
-        
         public string mailCliente()
         {
             string mail="";
@@ -95,10 +89,6 @@ namespace warrior_Gym
             return mail;
         }
 
-        private void button_configMail_Click(object sender, EventArgs e)
-        {
-            abrirTXT();
-        }
         private void CrearCuerpoCorreo()
         {
             try

@@ -37,7 +37,6 @@
             this.button_adjuntar = new System.Windows.Forms.Button();
             this.textBox_mensaje = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button_configMail = new System.Windows.Forms.Button();
             this.lblFiles = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ClientesParaMail)).BeginInit();
             this.SuspendLayout();
@@ -128,16 +127,6 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Mensaje";
             // 
-            // button_configMail
-            // 
-            this.button_configMail.Location = new System.Drawing.Point(623, 454);
-            this.button_configMail.Name = "button_configMail";
-            this.button_configMail.Size = new System.Drawing.Size(165, 23);
-            this.button_configMail.TabIndex = 9;
-            this.button_configMail.Text = "Configurar mail";
-            this.button_configMail.UseVisualStyleBackColor = true;
-            this.button_configMail.Click += new System.EventHandler(this.button_configMail_Click);
-            // 
             // lblFiles
             // 
             this.lblFiles.AutoSize = true;
@@ -153,7 +142,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 529);
             this.Controls.Add(this.lblFiles);
-            this.Controls.Add(this.button_configMail);
             this.Controls.Add(this.textBox_mensaje);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button_adjuntar);
@@ -182,7 +170,6 @@
         private System.Windows.Forms.Button button_adjuntar;
         private System.Windows.Forms.TextBox textBox_mensaje;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button_configMail;
         private System.Windows.Forms.Label lblFiles;
     }
 }
